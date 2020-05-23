@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "classmap": [
+            "app/config",
+            "app/controllers",
+            "app/core",
+            "app/models",
+            "app/views"
+        ]
+    }
+}
