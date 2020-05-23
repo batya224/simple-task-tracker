@@ -19,5 +19,5 @@ function BASE_URL()
     } else {
         $protocol = 'http';
     }
-    return $protocol . "://" . $_SERVER['HTTP_HOST'];
+    return $protocol . "://" . $_SERVER['HTTP_HOST'].'/simple-task-tracker';
 }
