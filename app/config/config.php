@@ -19,5 +19,5 @@ function BASE_URL()
     } else {
         $protocol = 'http';
     }
-    return $protocol . "://" . $_SERVER['HTTP_HOST'].'/testtask1';
+    return $protocol . "://" . $_SERVER['HTTP_HOST'];
 }
